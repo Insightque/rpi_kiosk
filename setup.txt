@@ -1,0 +1,302 @@
+    1  vi /etc/network/interfaces
+    2  vi /etc/dhcpcd.conf 
+    3  ls
+    4  vi /etc/network/interfaces
+    5  ifconfig
+    6  ifup wlan0
+    7  sudo ifup wlan0
+    8  lsusb
+    9  vi /etc/network/interfaces
+   10  vi /etc/dhcpcd.conf 
+   11  vim /etc/dhcpcd.conf 
+   12  vi /etc/dhcpcd.conf 
+   13  ifdown wlan0
+   14  ifdwon
+   15  ifdown
+   16  ifdown wlan
+   17  sudo vi /etc/dhcpcd.conf 
+   18  sudo raspi-config 
+   19  ifconfig
+   20  cat /etc/wpa_supplicant/wpa_supplicant.conf 
+   21  iwconfig
+   22  ifconfig
+   23  sudo apt-get update
+   24  sudo iwlist wlan0 scan
+   25  vi /etc/wpa_supplicant/wpa_supplicant.conf 
+   26  sudo /etc/init.d/networking restart
+   27  ifconfig
+   28  iwconfig
+   29  history
+   30  sudo raspi-config 
+   31  sudo apt-get update
+   32  sudo apt-get install vim
+   33  vi
+   34  vim
+   35  ls
+   36  clear
+   37  sudo apt-get install fbi
+   38  ifconfig
+   39  sudo apt-get install terminator
+   40  ifconfig
+   41  ls
+   42  vi asplashscreen
+   43  cp asplashscreen /etc/init.d/asplashscreen
+   44  sudo cp asplashscreen /etc/init.d/asplashscreen
+   45  sudo chmod 755 /etc/init.d/asplashscreen 
+   46  sudo inssrv /etc/init.d/asplashscreen 
+   47  sudo insserv /etc/init.d/asplashscreen 
+   48  sudo apt-get install insserv
+   49  sudo insserv /etc/init.d/asplashscreen 
+   50  ls
+   51  mv sub1_1_2.png splash.png
+   52  cp splash.png /etc/
+   53  sudo cp splash.png /etc/
+   54  sudo reboot
+   55  terminator
+   56  ls
+   57  fbi splash.png
+   58  fbi
+   59  passwd
+   60  ls
+   61  fbi splash.png
+   62  sudo fbi splash.png
+   63  sudo fbi -T 7 -d /dev/fb0 splash.png
+   64  clear
+   65  sudo fbi -T 7 -d /dev/fb0 splash.png
+   66  sudo fbi -T 7 -d /dev/fb1 splash.png
+   67  sudo fbi -T 7 -d /dev/fb0 splash.png
+   68  sudo fbi splash.png
+   69  fbi -d /dev/fb0 -T 1 splash.png 
+   70  sudo fbi -d /dev/fb0 -T 1 splash.png 
+   71  history
+   72  vi /etc/init.d/asplashscreen 
+   73  sudo reboot
+   74  vi /boot/cmdline.txt 
+   75  sudo vi /boot/cmdline.txt 
+   76  sudo reboot
+   77  vi asplashscreen 
+   78  cp asplashscreen /etc/init.d/asplashscreen 
+   79  sudo cp asplashscreen /etc/init.d/asplashscreen 
+   80  sudo chmod a+x /etc/init.d/asplashscreen 
+   81  sudo insserv /etc/init.d/asplashscreen 
+   82  sudo reboot
+   83  gitgit clone https://anonscm.debian.org/git/splashy/splashy.git
+   84  git clone https://anonscm.debian.org/git/splashy/splashy.git
+   85  sudo vi /boot/config.txt 
+   86  sudo systemctl disable getty@tty3
+   87  find / -name splashscreen.*
+   88  sudo systemctl enable splashscreen
+   89  sudo reboot
+   90  vi /boot/config.txt 
+   91  sudo vi /boot/config.txt 
+   92  sudo systemctl disable getty@tty1
+   93  vi /etc/systemd/system/splashscreen.service
+   94  sudo vi /etc/systemd/system/splashscreen.service
+   95  mv /etc/splash.png /opt/
+   96  sudo mv /etc/splash.png /opt/
+   97  systemctl enable splashscreen
+   98  sudo systemctl enable splashscreen
+   99  systemctl enable splashscreen
+  100  sudo passwd root
+  101  systemctl enable splashscreen
+  102  sudo vi /boot/config.txt 
+  103  sudo reboot
+  104  vi /boot/config.txt 
+  105  sudo vi /boot/config.txt 
+  106  sudo vi /boot/cmdline.txt 
+  107  sudo systemctl disable getty@tty1
+  108  sudo reboot
+  109  sudo vi /boot/config.txt 
+  110  sudo vi /boot/cmdline.txt 
+  111  sudo reboot
+  112  sudo vi /boot/cmdline.txt 
+  113  sudo reboot
+  114  ls
+  115  sudo vi /boot/cmdline.txt 
+  116  docker
+  117  ps -a
+  118  ps -A
+  119  top
+  120  curl -sSL https://get.docker.com | sh
+  121  sudo -H curl -sSL https://get.docker.com | sh
+  122  sudo -E curl -sSL https://get.docker.com | sh
+  123  sudo usermod -aG docker pi
+  124  docker
+  125  chromium-browser --version
+  126  vi kiosk.sh
+  127  vi /home/pi/.config/lxsession/LXDE-pi/autostart
+  128  sudo vi /home/pi/.config/lxsession/LXDE-pi/autostart
+  129  sudo cp -r /etc/xdg/lxsession .config/
+  130  sudo vi .config/lxsession/LXDE/autostart 
+  131  ls
+  132  chmod 777 kiosk.sh 
+  133  ls
+  134  ./kiosk.sh 
+  135  sudo reboot
+  136  ls
+  137  vi kiosk.sh 
+  138  sudo apt-get purge wolfram-engine scratch scratch2 nuscratch sonic-pi idle3 -y
+  139  sudo apt-get purge smartsim java-common minecraft-pi libreoffice* -y
+  140  sudo apt-get clean
+  141  sudo apt-get autoremove -y
+  142  sudo apt-get update
+  143  sudo apt-get upgrade
+  144  sudo apt-get install xdotool unclutter sed
+  145  sudo raspi-config
+  146  vi kiosk.sh 
+  147  mv kiosk.sh kiosk2.sh 
+  148  vi kiosk2.sh 
+  149  vi kiosk.sh 
+  150  echo $DISPLAY
+  151  sudo vi /lib/systemd/system/kiosk.service
+  152  history
+  153  rm -rf .config/lxsession
+  154  sudo rm -rf .config/lxsession
+  155  ls
+  156  [Unit]
+  157  Description=Chromium Kiosk
+  158  Wants=graphical.target
+  159  After=graphical.target
+  160  [Service]
+  161  Environment=DISPLAY=:0.0
+  162  Environment=XAUTHORITY=/home/pi/.Xauthority
+  163  Type=simple
+  164  ExecStart=/bin/bash /home/pi/kiosk.sh
+  165  Restart=on-abort
+  166  User=pi
+  167  Group=pi
+  168  [Install]
+  169  sudo systemctl enable kiosk.service
+  170  sudo systemctl start kiosk.service
+  171  sudo systemctl status kiosk.service
+  172  sudo raspi-config
+  173  sudo reboot
+  174  history
+  175  sudo systemctl disable kiosk.service
+  176  sudo systemctl status kiosk.service
+  177  sudo raspi-config
+  178  vi kiosk
+  179  vi kiosk.sh
+  180  cp kiosk.sh kiosk3.sh
+  181  vi kiosk.sh
+  182  history
+  183  sudo systemctl enable kiosk.service
+  184  sudo systemctl start kiosk.service
+  185  sudo reboot
+  186  history
+  187  vi sudo vi /lib/systemd/system/kiosk.service
+  188  sudo vi /lib/systemd/system/kiosk.service 
+  189  ls
+  190  sudo chmod 755 kiosk.sh
+  191  ll
+  192  ls
+  193  history
+  194  sudo systemctl enable kiosk.service
+  195  sudo systemctl start kiosk.service
+  196  sudo systemctl status kiosk.service
+  197  sudo systemctl start kiosk.service
+  198  sudo systemctl status kiosk.service
+  199  sudo systemctl enable kiosk.service
+  200  sudo systemctl status kiosk.service
+  201  sudo systemctl start kiosk.service
+  202  sudo systemctl status kiosk.service
+  203  vi kiosk.sh 
+  204  sudo systemctl start kiosk.service
+  205  sudo systemctl status kiosk.service
+  206  ls
+  207  mv kiosk.sh kiosk_ara.sh
+  208  cp kiosk3.sh kiosk.sh
+  209  sudo systemctl enable kiosk.service
+  210  sudo systemctl start kiosk.service
+  211  sudo systemctl status kiosk.service
+  212  vi kiosk_ara.sh 
+  213  cp kiosk_ara.sh kiosk.sh
+  214  sudo systemctl enable kiosk.service
+  215  sudo systemctl start kiosk.service
+  216  sudo systemctl status kiosk.service
+  217  vimdiff
+  218  vimdiff kiosk.sh kiosk3.sh 
+  219  sudo systemctl enable kiosk.service
+  220  sudo systemctl start kiosk.service
+  221  sudo systemctl status kiosk.service 
+  222  sudo systemctl disable kiosk.service
+  223  sudo systemctl start kiosk.service
+  224  sudo systemctl status kiosk.service 
+  225  sudo reboot
+  226  sudo systemctl status kiosk.service 
+  227  vimdiff kiosk.sh kiosk3.sh 
+  228  sudo reboot
+  229  ls
+  230  vi kiosk.sh
+  231  history
+  232  sudo systemctl enable kiosk.service 
+  233  sudo systemctl start kiosk.service
+  234  sudo systemctl disable kiosk.service
+  235  sudo systemctl status kiosk.service 
+  236  sudo systemctl stop kiosk.service 
+  237  vi kiosk.sh
+  238  sudo systemctl enable kiosk.service
+  239  sudo systemctl start kiosk.service
+  240  sudo systemctl stop kiosk.service
+  241  vi kiosk.sh
+  242  sudo systemctl start kiosk.service
+  243  ls
+  244  vi kiosk.sh
+  245  ls
+  246  sudo reboot
+  247  ls
+  248  vi kiosk.sh
+  249  vi .config/chromium/Default/Preferences 
+  250  chrome
+  251  chromium
+  252  sudo systemctl stop kiosk.service
+  253  sudo reboot
+  254  sudo systemctl stop kiosk.service
+  255  sduo apt-get install -y ibus-hangul
+  256  sudo apt-get install -y ibus-hangul
+  257  sudo apt-get install -y ttf-unfonts-core
+  258  sudo apt-get install -y ttf-unifont
+  259  sudo vi /etc/lightdm/lightdm.conf 
+  260  sudo reboot
+  261  vi /boot/config.txt 
+  262  vi /boot/cmdline.txt 
+  263  sudo vi /boot/cmdline.txt 
+  264  sudo reboot
+  265  sudo vi /boot/config.txt 
+  266  sudo vi /boot/cmdline.txt 
+  267  sudo reboot
+  268  history|grep boot
+  269  sudo vi /boot/cmdline.txt 
+  270  sudo reboot
+  271  vi /boot/cmdline.txt 
+  272  sudo vi /boot/cmdline.txt 
+  273  sudo reboot
+  274  vi /boot/cmdline.txt 
+  275  sudo vi /boot/cmdline.txt 
+  276  sudo cp /boot/cmdline.txt .
+  277  sudo vi /boot/cmdline.txt 
+  278  sudo reboot
+  279  sudo vi /boot/cmdline.txt 
+  280  sudo reboot
+  281  sudo vi /boot/cmdline.txt 
+  282  sudo reboot
+  283  sudo vi /boot/cmdline.txt 
+  284  sudo reboot
+  285  sudo vi /boot/cmdline.txt 
+  286  sudo reboot
+  287  ls
+  288  cd .ssh
+  289  ls
+  290  ll
+  291  ls -l
+  292  git clone https://github.com/Insightque/rpi_kiosk.git
+  293  cd rpi_kiosk/
+  294  ls
+  295  mkdir boot
+  296  cd boot/
+  297  ls
+  298  cp /boot/cmdline.txt .
+  299  cp /boot/config.txt .
+  300  vi config.txt 
+  301  history
+  302  history >> setup.txt

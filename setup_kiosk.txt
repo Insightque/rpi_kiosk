@@ -1,0 +1,29 @@
+
+#boot image -- splash.png
+sudo apt-get install fbi
+sudo vi /etc/systemd/system/splashscreen.service
+sudo mv splash.png /opt/
+sudo passwd root
+sudo systemctl enable splashscreen
+
+# kiosk mode
+sudo apt-get purge wolfram-engine scratch scratch2 nuscratch sonic-pi idle3 -y
+sudo apt-get purge smartsim java-common minecraft-pi libreoffice* -y
+sudo apt-get clean
+sudo apt-get autoremove -y
+sudo apt-get install xdotool unclutter sed
+# /boot/config.txt
+# /boot/cmdline.txt
+sudo systemctl enable kiosk.service
+sudo systemctl start kiosk.service
+sudo systemctl status kiosk.service
+sudo raspi-config
+sduo apt-get install -y ibus-hangul
+sudo apt-get install -y ibus-hangul
+sudo apt-get install -y ttf-unfonts-core
+sudo apt-get install -y ttf-unifont
+sudo vi /etc/lightdm/lightdm.conf
+
+#Install Docker 
+sudo -E curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker pi
